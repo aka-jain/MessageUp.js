@@ -1,16 +1,27 @@
 # MessageUp.js
 <br />
+<br />
 MessageUp.js is a 1 KB Jaascript file which is used to display messages one by one on a same place.
 <br />
+<br />
 Like for loading screen. It is very easy to install copy and paste the messageup-min.js in your js rot folder then initialize its path 
-at he end of body tag.<br />
+at he end of body tag.
+<br />
+<br />
 Just above it add your own script which takes some parameters related to messageup.js like:
+<br />
 ❮script❯ 
-     var msg=["Message 1", "Message 2", "Message 3", "Message 4", "Message 5" ];  //define messages here 
+<br />
+     var msg=["Message 1", "Message 2", "Message 3", "Message 4", "Message 5" ];  //define messages here
+     <br />
      var color=["red", "green", "yellow", "green", "blue"];  // define color here (optional) 
+     <br />
      var time=1500;  // define time here (optional) 
+     <br />
      var speed="slow";  // define speed here as slow or fast (optional) 
+     <br />
      var iteration="repeat";  // define iteration type here as repeat or no-repeat (optional) 
+     <br />
 ❮/script❯
 <br />
 and lastly just add a div to your HTML with ID message-box and you are ready to go :)
