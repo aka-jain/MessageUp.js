@@ -26,5 +26,5 @@ Just above it add your own script which takes some parameters related to message
 <br />
 and lastly just add a div to your HTML with ID message-box and you are ready to go :)
 <br /><br />
-Note* currently this is working for only on e message box. Don't try to initialize with more than one div.
+Note* currently this is working for only one message box. Don't try to initialize with more than one div.
       
