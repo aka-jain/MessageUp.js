@@ -1,0 +1,70 @@
+<html>
+
+<head>
+	<title>
+		MessageUp.js
+	</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="main.css" rel="stylesheet">
+
+	<body>
+
+		<div class="head">MessageUp.js</div>
+
+		<div id="message-box"></div>
+		<p> MessageUp.js is just a 1KB Javascript library which runs without using any third party plugin.
+			<br> If you want to change your text dynamically after some time then MessageUp.js will do it all for you.
+			<br> You can also customize speed, color and effects time of messages.
+			<br>
+			<br> Read documentation on GitHub.
+			<br>And if you want to contribute in this library then you are most welcome.
+		</p>
+
+		<div class="example">
+			It's very easy to apply.
+			<br>
+			<br> Step1- include message.js or message-min.js script after your ending body tag like:
+			<br> &#10094;script src="/path/messageup.js"&#10095;&#10094;/script&#10095; or &#10094;script src="/path/messageup-min.js"&#10095;&#10094;/script&#10095;
+			<br>
+			<br> Step2- initialize your own script just above your message.up script tags as
+			<br> &#10094;script&#10095;
+			<br> &nbsp;&nbsp;&nbsp;&nbsp; var msg=["Message 1", "Message 2", "Message 3", "Message 4", "Message 5" ]; <span class="light">&nbsp;//define messages here </span>
+			<br> &nbsp;&nbsp;&nbsp;&nbsp; var color=["red", "green", "yellow", "green", "blue"]; <span class="light">&nbsp;// define color here (optional)</span>
+			<br> &nbsp;&nbsp;&nbsp;&nbsp; var time=1500;<span class="light"> &nbsp;// define time here (optional)</span>
+			<br> &nbsp;&nbsp;&nbsp;&nbsp; var speed="slow";<span class="light"> &nbsp;// define speed here as slow or fast (optional) </span>
+			<br> &nbsp;&nbsp;&nbsp;&nbsp; var iteration="repeat"; <span class="light">&nbsp;// define iteration type here as repeat or no-repeat (optional)</span>
+			<br> &#10094;/script&#10095;
+
+			<br>
+			<br> Step3- include an id to your div as message-box in HTML like:
+			<br> &#10094;div id="message-box"&#10095;&#10094;/div&#10095;
+			<br>
+			<br> Now you are ready to go :)
+		</div>
+
+		<div class="sign">By Akash Jain
+			<br>
+			<a href="http://www.jainakash.in" target="_blank">
+(www.jainakash.in)<br><br></a> Made with <i class="fa fa-heart"></i> while listening <i class="fa fa-music"></i></div>
+	</body>
+
+
+	<script>
+		// script for messageup
+		var msg = ["Hi!", "I'm Messageup.js", "Use me to...", "display your text", " change your text", "do cool things", ":)"]; //define messages
+
+		var color = ["#E53935", "#5E35B1", "#009688", "#AFB42B", "#37474F", "#EF6C00", "#558B2F"]; //define color corresponding to each message
+
+		var time = 1500; //define time for which message will display on screen
+
+		var speed = "slow"; // define speed of fade effect 
+
+		var iteration = "repeat"; //define iteration type
+
+	</script>
+	<script src="messageup-min.js"></script>
+
+</head>
+
+</html>

@@ -1,0 +1,43 @@
+body {
+	font-family: Roboto
+}
+
+.example,
+.sign,
+p {
+	font-size: 1em;
+	color: #9d9d9d;
+	text-align: left;
+	padding: 20px;
+	display: block
+}
+
+.light {
+	color: #9d9d9d
+}
+
+.example {
+	color: #4d4d4d
+}
+
+#message-box,
+.head {
+	text-align: left;
+	font-size: 2em;
+	/*	color: #9d9d9d;*/
+	margin: 3.2% 3.2% 3.2% 20px
+}
+
+.head {
+	font-size: 3em
+}
+
+a {
+	text-decoration: none;
+	color: #35709A;
+	transition: all .2s ease
+}
+
+a:hover {
+	color: #9d9d9d
+}
