@@ -4,10 +4,34 @@
 // Github===========
 
 
+
+//check color
+var color = (typeof color == 'undefined') ? ['#4d4d4d'] : color;
+//check time
+var time = (typeof time == 'undefined') ? 1500 : time;
+
+// check speed
+
+if (typeof speed == 'undefined') {
+	fade_time = 500;
+} else if (speed == "slow") {
+	fade_time = 700;
+} else if (speed == "fast") {
+	fade_time = 200;
+}
+
+// check iteration type (repeat or no-repeat)
+
+if (typeof iteration == "undefined") {
+	stop = 1;
+} else if (iteration == "no-repeat") {
+	stop = 0;
+} else {
+	stop = 1;
+}
+
+
 // fadeIn function
-
-
-
 function fadeIn(element, ms) {
 	if (!element)
 		return;
@@ -34,26 +58,6 @@ function fadeIn(element, ms) {
 	}
 }
 
-
-
-// check speed
-
-if (speed == "slow") {
-	fade_time = 700;
-} else if (speed == "fast") {
-	fade_time = 200;
-} else {
-	fade_time = 500;
-}
-
-// check iteration type (repeat or no-repeat)
-
-
-if (iteration == "no-repeat") {
-	stop = 0;
-} else {
-	stop = 1;
-}
 
 // messageup function
 
@@ -82,7 +86,6 @@ function messageup() {
 		col_count++;
 
 	} else {
-
 		col_count = 0;
 		val.style.color = color[col_count];
 		col_count++;
