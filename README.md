@@ -14,13 +14,13 @@ Just above it add your own script which takes some parameters related to message
 <br />
      var msg=["Message 1", "Message 2", "Message 3", "Message 4", "Message 5" ];  //define messages here
      <br />
-     var color=["red", "green", "yellow", "green", "blue"];  // define color here 
+     var color=["red", "green", "yellow", "green", "blue"];  // define color here (optional by default it is dark grey)
      <br />
-     var time=1500;  // define time here
+     var time=1500;  // define time here (optional by default it is medium)
      <br />
-     var speed="slow";  // define speed here as slow or fast
+     var speed="slow";  // define speed here as slow or fast (optional by default it is medium)
      <br />
-     var iteration="repeat";  // define iteration type here as repeat or no-repeat
+     var iteration="no-repeat";  // define iteration type here as repeat or no-repeat (optional by default it is repeat)
      <br />
 ❮/script❯
 <br />
