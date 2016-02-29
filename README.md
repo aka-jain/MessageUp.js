@@ -1,11 +1,11 @@
 # MessageUp.js
 <br />
 <br />
-MessageUp.js is a 1 KB Jaascript file which is used to display messages one by one on a same place, like for a loading screen.
+MessageUp.js is a 1 KB Javascript file based on Jquery which is used to display messages one by one at the  same place, like for a loading screen.
 <br />
 <br />
  It is very easy to install, just copy and paste the messageup-min.js in your js root folder and then initialize its path 
-at the end of body tag.
+at the end of the body tag.
 <br />
 <br />
 Just above it add your own script which takes some parameters related to messageup.js like:
