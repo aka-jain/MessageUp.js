@@ -20,7 +20,7 @@ p {
 	color: #4d4d4d
 }
 
-#message-box,
+.message-box,
 .head {
 	text-align: left;
 	font-size: 2em;
