@@ -13,6 +13,8 @@
 		<div class="head">MessageUp.js</div>
 
 		<div class="message-box"></div>
+		<div class="message-box"></div>
+
 
 		<p> MessageUp.js is just a 1KB Javascript library which runs without using any third party plugin.
 			<br> If you want to change your text dynamically after some time then MessageUp.js will do it all for you.
@@ -50,23 +52,15 @@
 (www.jainakash.in)<br><br></a> Made with <i class="fa fa-heart"></i> while listening <i class="fa fa-music"></i></div>
 	</body>
 
-<script src="bower_components/jquery/dist/jquery.min.js">
-</script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="lib/messageup.js"></script>
 
 	<script>
-		// script for messageup
-		var msg = ["Hi!", "I'm Messageup.js", "Use me to...", "display your text", " change your text", "do cool things", ":)"]; //define messages
+		$(".message-box").messageup({
+			msg : ["shiv", "baran", "singh"]
 
-		var color = ["#E53935", "#5E35B1", "#009688", "#AFB42B", "#37474F", "#EF6C00", "#558B2F"]; //define color corresponding to each message
-
-		var time = 1500; //define time for which message will display on screen (optional)
-
-		var speed = "slow"; // define speed of fade effect  (optional)
-
-		var iteration = "repeat"; //define iteration type  (optional)
-
+			});
 	</script>
-	<script src="lib/messageup.js"></script>
 
 </head>
 
