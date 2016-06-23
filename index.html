@@ -13,7 +13,6 @@
 		<div class="head">MessageUp.js</div>
 
 		<div class="message-box"></div>
-		<div class="message-box"></div>
 		<div id="haha"></div>
 
 
@@ -58,11 +57,13 @@
 
 	<script>
 		$(".message-box").messageup({
-			msg : ["shiv", "baran", "singh"]
-
+			msg : ["Hi", "This", "is", "custom", "message"],
+			color : ["#E53935", "#5E35B1", "#009688" , "#EF6C00", "#37474F"],
+			time : 1000 
 			});
 		$("#haha").messageup({
-			msg : ["haha", "hihi", "huhu"]
+			msg : ["haha", "hihi", "huhu"],
+			time : 2000
 		})
 	</script>
 
