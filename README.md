@@ -2,6 +2,8 @@
 
 MessageUp.js is a 1 KB Javascript file based on Jquery which is used to display messages one by one at the  same place, like for a loading screen.
 
+# Install using npm
+npm install msgup
 
 ##How To use MessageUp.js
 
